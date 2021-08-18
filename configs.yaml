@@ -1,0 +1,22 @@
+common:
+  # 程序名称
+  name: "PoPic"
+
+  # 程序运行端口
+  port: 8085
+
+mysql:
+  #mysql地址
+  domain: "127.0.0.1"
+  #mysql端口
+  port: "3380"
+  #mysql账号
+  user: "root"
+  #mysql密码
+  password: "root"
+  #mysql编码
+  charset: "utf8mb4"
+  #数据库名称
+  dbname: "PoPic"
+  #表前缀
+  prefix: "pic_"
